@@ -1,0 +1,30 @@
+.bg-color {
+  background-color: @light-blue;
+  .set-text-color(@light-blue);
+}
+
+.main-header__title {
+  .set-font(@line * 1.8, @line * 2.6);
+  font-family: @font-bold;
+}
+
+.main-header__subtitle {
+  .set-font(@line * 1.4, @line * 2.4);
+  font-family: @font;
+}
+
+.main-header__list {
+  list-style: none;
+}
+
+.main-header__photo-city {
+  width: 100vw;
+  height: 260px;
+  object-fit: cover;
+}
+
+@media (min-width: @tablet-width) {
+  .main-header__bg {
+    display: flex;
+  }
+}

@@ -1,0 +1,21 @@
+.copyright__text {
+  .set-font(@line * 1.4, @line * 2.6);
+  font-family: @font;
+}
+
+.copyright {
+  position: relative;
+  text-align: center;
+}
+
+.copyright__link {
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+@media (min-width: @tablet-width) {
+  .copyright__link {
+    top: 10px;
+  }
+}

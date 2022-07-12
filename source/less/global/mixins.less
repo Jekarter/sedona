@@ -1,0 +1,12 @@
+.set-font(@font-size, @line-height: @line) {
+  font-size: @font-size;
+  line-height: @line-height;
+}
+
+.set-text-color(@bg-color) {
+  background-color: @bg-color;
+
+  & when (lightness(@bg-color) < 70%) {
+    color: @white;
+  }
+}

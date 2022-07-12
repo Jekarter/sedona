@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Sedona</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="page-header">
@@ -14,17 +15,17 @@
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
+          <ul class="main-nav__list">
+            <li class="main-nav__item main-nav__item-current">
               <a href="index.html">Главная</a>
             </li>
-            <li class="site-list__item site-list__item-current">
-              <a>Фото и видео</a>
+            <li class="main-nav__item">
+              <a href="catalog.html">Фото и видео</a>
             </li>
-            <li class="site-list__item">
+            <li class="main-nav__item">
               <a href="form.html">Форма отзыва</a>
             </li>
-            <li class="site-list__item">
+            <li class="main-nav__item">
               <a href="#">Html Academy</a>
             </li>
           </ul>
@@ -35,7 +36,7 @@
     <main class="page-main">
       <section class="main-header">
         <div class="main-header__wrapper">
-          <div class="page-intro intro">
+          <div class="main-header__intro intro">
             <h1 class="visually-hidden">Sedona Фото и Видео</h1>
             <img class="intro-banner" src="img/main/sedona.svg" width="230" height="30" alt="Sedona">
           </div>
@@ -91,19 +92,19 @@
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link social__link--twitter">Мы в Твиттере</a>
+              <a class="button social__link social__link--twitter">Мы в Твиттере</a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--facebook">Мы в Фейсбуке</a>
+              <a class="button social__link social__link--facebook">Мы в Фейсбуке</a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--youtube">Мы в Ютубе</a>
+              <a class="button social__link social__link--youtube">Мы в Ютубе</a>
             </li>
           </ul>
         </div>
-        <div class="page-footer__developed developed">
-          <p class="developed__text">Разработано</p>
-          <a class="developed__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <div class="page-footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
       </div>
     </footer>

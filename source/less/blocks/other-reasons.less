@@ -1,0 +1,39 @@
+.other-reasons {
+  background-color: @gray;
+}
+
+.other-reasons__list {
+  list-style: none;
+  text-align: center;
+}
+
+.other-reasons__title {
+  .set-font(@line * 1.8, @line * 2.6);
+  font-family: @font-bold;
+}
+
+.other-reasons__subtitle {
+  .set-font(@line * 1.4, @line * 2.1);
+  font-family: @font;
+}
+
+.other-reasons__photo-bridge {
+  width: 100vw;
+  height: 260px;
+  object-fit: cover;
+  object-position: 30% 50%;
+}
+
+@media (min-width: @tablet-width) {
+  .other-reasons__bg {
+    display: flex;
+  }
+
+  .other-reasons__bg--first {
+    order: 1;
+  }
+
+  .other-reasons__bg--second {
+    order: 2;
+  }
+}
